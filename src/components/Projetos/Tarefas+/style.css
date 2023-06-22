@@ -5,6 +5,7 @@
     font-style:oblique;
     font-size: 40px;
     margin-bottom: 5rem;
+    margin-top: 5rem;
 
     text-align: center;
 }
@@ -33,7 +34,6 @@
 
 .txt-projeto{
     color: #000000;
-    padding: 20px;
     margin-right: 100px;
     font-size: 18px;
     line-height: 2rem;
@@ -78,4 +78,14 @@
     height: 20rem;
     width: auto;
     border-radius: 5px;
+}
+
+
+
+@media(max-width: 1200px){
+    .img-projeto{
+        height: 15rem;
+        width: auto;
+        border-radius: 5px;
+    }
 }

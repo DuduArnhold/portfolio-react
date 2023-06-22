@@ -42,11 +42,19 @@ header img{
     header{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
 
     }
 
     .nav-list ul{
         display: flex;
         flex-direction: column;
+        padding: 4px;
     }
+        .nav-list a{
+            padding: 4px;
+        }
+
 }
