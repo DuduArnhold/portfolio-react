@@ -34,3 +34,19 @@ header img{
 .nav-list a:hover{
     color: #6a6565;
 }
+
+
+
+
+@media (max-width: 640px){
+    header{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-list ul{
+        display: flex;
+        flex-direction: column;
+    }
+}

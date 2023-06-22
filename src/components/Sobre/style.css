@@ -16,7 +16,7 @@
     font-weight: 900;
     font-style:oblique;
     font-size: 40px;
-    margin-bottom: 5rem;
+    text-align: center;
 }
 
 .sobre p {
@@ -32,4 +32,32 @@
     height: 200px;
     border-right: 2px solid black;
     margin-bottom: 5rem;
+}
+
+
+@media (max-width: 1140px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .sobre h2{
+        color: #000000;
+        font-weight: 900;
+        font-style:oblique;
+        font-size: 30px;
+    }
+    .sobre p {
+        color: #000000;
+        font-size: 18px;
+        line-height: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .linha__vertical{
+        display: none;
+    }
 }

@@ -23,6 +23,9 @@ export default function Header(){
                     <li>
                         <a href="#">Projetos</a>
                     </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
                 </ul>
             </nav>
         </div>

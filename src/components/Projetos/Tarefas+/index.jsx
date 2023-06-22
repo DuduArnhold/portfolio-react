@@ -1,9 +1,9 @@
-import '../Projetos/style.css';
+import '../Tarefas+/style.css';
 import {FaCss3Alt, FaHtml5,  } from 'react-icons/fa';
 
 import { SiNextdotjs, SiTypescript} from 'react-icons/si';
 
-export default function Projetos(){
+export default function TarefasPlus(){
     return(
         <>
             <div className='title'>
