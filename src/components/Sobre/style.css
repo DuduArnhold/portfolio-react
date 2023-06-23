@@ -15,7 +15,7 @@
     margin-left: 100px;
     font-weight: 900;
     font-style:oblique;
-    font-size: 40px;
+    font-size: 53px;
     text-align: center;
 }
 
@@ -23,13 +23,13 @@
     color: #000000;
     padding: 10px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 2rem;
 
     margin-bottom: 5rem;
 }
 .linha__vertical{
-    height: 200px;
+    height: 400px;
     border-right: 2px solid black;
     margin-bottom: 5rem;
 }

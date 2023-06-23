@@ -20,7 +20,7 @@ h4{
     color: black;
     font-weight: bold;
     font-style:oblique;
-    font-size: 40px;
+    font-size: 53px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -43,7 +43,7 @@ h4{
 .contato-items p{
     color: black;
     padding: 20px;
-    font-size: 18px;
+    font-size: 23px;
     margin: 0 auto;
 
     text-align: center;

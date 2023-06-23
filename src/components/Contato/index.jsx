@@ -10,16 +10,16 @@ export default function Contato(){
                 <h4>contato</h4>
                 <div className="contato-items">
                     <a href="https://github.com/DuduArnhold">
-                        <AiOutlineGithub size={50}/>
+                        <AiOutlineGithub size='5rem'/>
                     </a>
                     <a href="https://www.linkedin.com/in/duduarnhold/">
-                        <AiOutlineLinkedin size={50}/>
+                        <AiOutlineLinkedin size='5rem'/>
                     </a>
                     <div className="items-txt">
-                        <SiGmail size={50}/>
+                        <SiGmail size='5rem'/>
                         <p>duduarnhold2@gmail.com</p>
         
-                        <BsFillTelephoneFill size={50}/>
+                        <BsFillTelephoneFill size='5rem'/>
                         <p>55 54 99983-9523</p>
                     </div>
                 </div>

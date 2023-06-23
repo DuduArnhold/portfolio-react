@@ -8,12 +8,12 @@ export default function Home(){
                 <h1 className='title'>José Eduardo Arnhold</h1>
                 <a href="#">
                     <AiOutlineGithub
-                         size='3rem'
+                         size='5rem'
                     />
                 </a>
                 <a href="#">
                     <AiOutlineLinkedin
-                        size='3rem'
+                        size='5rem'
                     />
                 </a>
             </div>
