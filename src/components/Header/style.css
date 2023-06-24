@@ -1,11 +1,16 @@
 header{
     height: 6rem;
     width: 100%;
+    background: #FFFFFF;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    position: sticky;
+    top: 0;
+    z-index: 9;
 }
 
 header img{

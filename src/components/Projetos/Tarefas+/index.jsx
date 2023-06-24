@@ -9,7 +9,7 @@ export default function TarefasPlus(){
             <div className='title'>
                 <h3>Projetos</h3>
             </div>
-            <section className='container'>
+            <section className='container' id='projetos'>
             
             <div className='project-container'>
                 <div>
