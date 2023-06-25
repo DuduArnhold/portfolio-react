@@ -27,6 +27,7 @@
     margin-right: 100px;
     font-size: 23px;
     line-height: 2rem;
+    white-space: pre-wrap;
 
 
 }
@@ -83,4 +84,47 @@
 
 .img-projeto:hover{
     opacity: 0.8;
+}
+
+
+@media(max-width: 1300px){
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 5rem 0;
+        padding: 8px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        margin-bottom: 30px;
+    }
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    
+        justify-content: space-between;
+    
+        margin-bottom: 10px;
+        
+    }
+    .icons-projeto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        margin-top: 2rem;
+    }
+    .img-projeto{
+        height: 25rem;
+        width: auto;
+        border-radius: 5px;
+        transition: all 1s;
+    }
+    
 }

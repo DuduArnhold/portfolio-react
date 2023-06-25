@@ -1,6 +1,6 @@
 .title{
     color: #000000;
-    margin-left: 100px;
+    margin-left: auto;
     font-weight: 900;
     font-style:oblique;
     font-size: 53px;
@@ -79,4 +79,3 @@
     width: auto;
     border-radius: 5px;
 }
-
