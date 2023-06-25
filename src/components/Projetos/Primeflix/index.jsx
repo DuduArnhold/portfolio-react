@@ -10,7 +10,7 @@ export default function PrimeFlix(){
             
             <div className='project-container'>
                 <div>
-                    <img className='img-projeto' src="./public/images/primeflix.png" alt="Imagem do projeto tarefas +" />
+                    <img className='img-projeto' src="./images/primeflix.png" alt="Imagem do projeto tarefas +" />
                 </div>
                 
 

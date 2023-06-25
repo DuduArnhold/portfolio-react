@@ -7,7 +7,7 @@ export default function Header(){
         <>
         <header>
         <div>
-            <a href="#"><img src="./public/images/Logo.png" alt="Logo site" /></a>
+            <a href="#"><img src="./images/Logo.png" alt="Logo site" /></a>
         </div>
 
 

@@ -17,7 +17,7 @@ export default function Home(){
                     />
                 </a>
             </div>
-                <img  className='img-home' src='./public/images/dev-prod.svg' alt="Undraw illustration de um dev" />
+                <img  className='img-home' src='./images/dev-prod.svg' alt="Undraw illustration de um dev" />
 
         </section>
     )

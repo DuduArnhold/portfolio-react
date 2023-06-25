@@ -13,7 +13,7 @@ export default function TarefasPlus(){
             
             <div className='project-container'>
                 <div>
-                    <img className='img-projeto' src="./public/images/tarefas+.png" alt="Imagem do projeto tarefas +" />
+                    <img className='img-projeto' src="./images/tarefas+.png" alt="Imagem do projeto tarefas +" />
                 </div>
                 
 
