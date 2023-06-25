@@ -37,10 +37,10 @@ export default function TarefasPlus(){
 
 
                 <div className='buttons-projeto'>
-                    <a className='link' href="#">
+                    <a className='link' href="https://github.com/DuduArnhold/tarefasPlus">
                         <button className='button'>GitHub</button>
                     </a>
-                    <a className='link' href="#">
+                    <a className='link' href="https://tarefas-plus-xi.vercel.app/">
                         <button className='button'>Ir para o projeto</button>
                     </a>
                 </div>

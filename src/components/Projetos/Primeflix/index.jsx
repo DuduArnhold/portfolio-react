@@ -35,10 +35,10 @@ export default function PrimeFlix(){
 
 
                 <div className='buttons-projeto'>
-                    <a className='link' href="#">
+                    <a className='link' href="https://github.com/DuduArnhold/primeflix">
                         <button className='button'>GitHub</button>
                     </a>
-                    <a className='link' href="#">
+                    <a className='link' href="https://primeflix-topaz.vercel.app/">
                         <button className='button'>Ir para o projeto</button>
                     </a>
                 </div>
