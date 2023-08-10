@@ -18,9 +18,9 @@
 
 h4{
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     font-style:oblique;
-    font-size: 53px;
+    font-size: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

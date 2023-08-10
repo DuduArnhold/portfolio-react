@@ -20,7 +20,7 @@ export default function Contato(){
                         <p>duduarnhold2@gmail.com</p>
         
                         <BsFillTelephoneFill size='5rem'/>
-                        <p>55 54 99983-9523</p>
+                        <p>55 54 99642-9071</p>
                     </div>
                 </div>
             </section>

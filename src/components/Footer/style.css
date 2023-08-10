@@ -21,3 +21,31 @@ footer{
     font-size: 23px;
     margin-left: 300px;
 }
+
+@media(max-width: 1540px){
+    .footer__img{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 1540px){
+    .footer__img{
+        margin-left: 20px;
+    }
+    .footer-txt{
+        color: #000000;
+        font-size: 18px;
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 800px){
+    .footer__img{
+        display: none;
+    }
+    .footer-txt{
+        color: #000000;
+        font-size: 18px;
+        margin-left: auto;
+    }
+}

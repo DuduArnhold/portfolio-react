@@ -64,13 +64,14 @@
         font-size: 48px;
         font-weight: bolder;
         text-align: center;
-        margin-right: 18px;
+        margin-right: auto;
     }
     .name_icons a{
         text-decoration: none;
         color: black;
-        margin-left: 10rem;
+        margin-left: 5rem;
         align-items: center;
+        
         
     }
 }
