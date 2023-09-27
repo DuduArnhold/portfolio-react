@@ -8,12 +8,12 @@ export default function Home(){
                 <h1 className='title'>José Eduardo Arnhold</h1>
                 <a href="https://github.com/DuduArnhold" target="_blank" rel="noreferrer">
                     <AiOutlineGithub
-                         size='5rem'
+                         size='3rem'
                     />
                 </a>
                 <a href="https://www.linkedin.com/in/duduarnhold/" target="_blank" rel="noreferrer">
                     <AiOutlineLinkedin
-                        size='5rem'
+                        size='3rem'
                     />
                 </a>
             </div>

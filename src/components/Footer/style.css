@@ -13,12 +13,12 @@ footer{
 
 .footer__img{
     width: auto;
-    height: 8rem;
+    height: 6rem;
 }
 
 .footer-txt{
     color: #000000;
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 300px;
 }
 
