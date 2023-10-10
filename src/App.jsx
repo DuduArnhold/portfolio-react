@@ -5,6 +5,7 @@ import TarefasPlus from './components/Projetos/Tarefas+';
 import PrimeFlix from './components/Projetos/Primeflix';
 import Footer from './components/Footer';
 import Contato from './components/Contato';
+import DevLink from './components/Projetos/dev-link/index.jsx';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <TarefasPlus/>
 
       <PrimeFlix/>
+
+      <DevLink/>
 
       <Contato/>
     </main>

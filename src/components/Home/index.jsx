@@ -5,7 +5,9 @@ export default function Home(){
     return(
         <section className='container-home' id='home'>
             <div className='name_icons'>
-                <h1 className='title'>José Eduardo Arnhold</h1>
+                <h1 className='title'><strong>José Eduardo Arnhold </strong><br/>
+                                        <hr></hr>
+                                        Desenvolvedor Front-End</h1>
                 <a href="https://github.com/DuduArnhold" target="_blank" rel="noreferrer">
                     <AiOutlineGithub
                          size='3rem'
