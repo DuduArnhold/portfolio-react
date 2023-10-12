@@ -46,6 +46,14 @@ footer{
     .footer-txt{
         color: #000000;
         font-size: 18px;
-        margin-left: auto;
     }
 }
+
+@media(max-width: 600px){
+    .footer-txt{
+        color: #000000;
+        font-size: 18px;
+        margin: 0;
+    }
+}
+

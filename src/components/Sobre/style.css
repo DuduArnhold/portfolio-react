@@ -79,6 +79,7 @@
         font-style:oblique;
         font-size: 40px;
         margin: auto;
+        margin-top: 20vh;
     }
     .sobre p {
         color: #000000;
@@ -93,25 +94,27 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .sobre{
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
         justify-content: center;
+        margin-top: 5vh;
 
     }
     .sobre h2{
         color: #000000;
         font-weight: 900;
-        font-style:oblique;
-        font-size: 20px;
+        font-style: bolder;
+        font-size: 30px;
+        margin-bottom: 2px solid black; 
     }
     .sobre p {
         color: #000000;
-        font-size: 15px;
-        line-height: 1rem;
+        font-size: 16px;
+        line-height: 1.2rem;
         margin-bottom: 20px;
         text-align: center;
         margin: 0;

@@ -17,7 +17,7 @@
 }
 
 .name_icons a{
-    padding: 1rem;
+    padding: .5rem;
     text-decoration: none;
     color: black;
     margin-left: 5rem;
@@ -71,5 +71,18 @@
         color: black;
         margin-left: 8rem;
         align-items: center;
+    }
+}
+
+@media(max-width: 600px){
+    .container-home{
+        text-align: center;
+        
+    }
+    .name_icons h1{
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 30vh;
     }
 }

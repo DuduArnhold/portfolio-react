@@ -1,64 +1,54 @@
 import './style.css'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+
 
 
 export default function Header(){
+    
+    function showMenu(){
+        const nav = document.getElementById("nav");
+
+        nav.classList.toggle('active')
+
+        
+    }
 
     return (
         <>
-        <header>
+        <header id='header'>
         <div>
-            <a href="#"><img src="./images/Logo.png" alt="Logo site" /></a>
+            <a href="#home" id='logo'>
+                <img src="./images/Logo.png" alt="Logo site" />
+            </a>
         </div>
 
 
         <div className='nav-list'>
-            <nav>
-                <ul>
-                    <li>
+            <nav id='nav'>
+                <button id='btn-mobile' onClick={showMenu}>
+                    Menu
+                    <span id='hamburguer'></span>
+                </button>
+                <ul id='menu'>
+                    <li className="nav-item">
                         <a href="#home">Home</a>
-                    </li>
-                    <li>
+                    </li >
+                    <li className="nav-item">
                         <a href="#sobre">Sobre</a>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <a href="#projetos">Projetos</a>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <a href="#contato">Contato</a>
                     </li>
                 </ul>
                 
             </nav>
         </div>
-        <div className='nav-list-mobile'>
-                <ul>
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#sobre">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#projetos">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#contato">Contato</a>
-                    </li>
-                </ul>
-        </div>
-        <div className='icon-mobile-menu'>
-                    <AiOutlineMenu
-                        size="2.5rem"
-                    />
-        </div>
-        <div className='icon-mobile-menu'>
-                    <AiOutlineClose
-                        size="2.5rem"
-                    />
-        </div>
+       
 
-        </header>
+
+    </header>
 
         </>
     )
