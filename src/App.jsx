@@ -6,6 +6,7 @@ import PrimeFlix from './components/Projetos/Primeflix';
 import Footer from './components/Footer';
 import Contato from './components/Contato';
 import DevLink from './components/Projetos/dev-link/index.jsx';
+import WebCarros from './components/Projetos/webcarros/index.jsx';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <PrimeFlix/>
 
       <DevLink/>
+      
+      <WebCarros/>
 
       <Contato/>
     </main>
